@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:mountapp/detail_rating_bar.dart';
-import 'package:mountapp/header.dart';
-import 'package:mountapp/listview.dart';
-import 'package:mountapp/search.dart';
-import 'package:mountapp/kategori.dart';
-import 'package:mountapp/bottom.dart';
-import 'package:mountapp/bottom_actions.dart';
+import 'package:mountapp/ClassMountModel.dart';
+import 'package:mountapp/DetailsRatingBar.dart';
+import 'package:mountapp/AppHeader.dart';
+import 'package:mountapp/AppMountListView.dart';
+import 'package:mountapp/AppSearch.dart';
+import 'package:mountapp/AppCategoryList.dart';
+import 'package:mountapp/AppBottomBar.dart';
+import 'package:mountapp/DetailsBottomActions.dart';
 
 final Color maincolor = Color(0xFFFF5656);
 

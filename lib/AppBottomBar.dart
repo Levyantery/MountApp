@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mountapp/AppBottomBarItem.dart';
 
 class AppBottomBar extends StatefulWidget {
   @override
@@ -69,14 +70,3 @@ class AppBottomBarState extends State<AppBottomBar> {
   }
 }
 
-class AppBottomBarItem {
-  final IconData icon;
-  bool isSelected;
-  final String label;
-
-  AppBottomBarItem({
-    required this.icon,
-    this.label = '',
-    this.isSelected = false,
-  });
-}
