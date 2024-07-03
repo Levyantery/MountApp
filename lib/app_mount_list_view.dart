@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mountapp/Class_Mount_Model.dart';
+import 'package:mountapp/class_mount_model.dart';
 import 'package:mountapp/main.dart';
 
 class AppMountListView extends StatelessWidget {
